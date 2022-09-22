@@ -2,7 +2,7 @@
 
 {
     'name': 'Sale order archiving',
-    'version': '1.0.1',
+    'version': '1.0.1.1',
     'author':'Soft-integration',
     'category': 'Sale',
     'summary': 'Sale order archiving',
@@ -11,6 +11,7 @@
         'sale'
     ],
     'data': [
+        'security/sale_order_archiving_security.xml',
         'views/sale_views.xml'
     ],
     'installable': True,
